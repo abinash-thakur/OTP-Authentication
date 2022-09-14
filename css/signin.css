@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ECEDEE;
+}
+.mycontainer{
+    height: 100vh;
+    background-color: #ECEDEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoContainer img{
+    height: 12vh;
+    margin-left: 10px;
+}
+#alert{
+    display: none;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: red;
+    font-weight: 400;
+}
+#main{
+    background-color: #FFFFFF;
+    width: 20rem;
+    height: 17rem;
+    padding: 14px;
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-control{
+    height: 52px;
+    background-color: #ECEDEE;
+}
+.form-control:focus{
+    background-color: #ECEDEE;
+    border-color: #0069d9;
+}
+.form-label{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+#otp{
+    text-align: end;
+}
+.btndesign{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+#btn{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#logintext{
+    cursor:pointer;
+    font-weight: 600;
+}
+.spin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#container{
+    padding:10px;
+    background-color: #00175a;
+    color:#FFFFFF;
+    text-align: center;
+}

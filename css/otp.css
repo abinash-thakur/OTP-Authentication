@@ -1,0 +1,53 @@
+body {
+    background:#ECEDEE;
+  }
+  .main{
+      height: 88vh;
+  }
+  .text-color {
+    color: #145a32;
+  }
+  .card {
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: none;
+    position: relative;
+  }
+  .container {
+    height: 100vh;
+  }
+  .mobile-text {
+    color: #0069d9;
+    font-size: 15px;
+  }
+  #inputOTP{
+    background-color: #ECEDEE;
+  }
+  #btnVerify{
+    cursor: pointer;
+  }
+  #resend{
+    cursor: pointer;
+  }
+  .spin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#alert{
+  display: none;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: red;
+  font-weight: 400;
+}
+
+#container{
+  background-color: #00175a;
+  color:#FFFFFF;
+  text-align: center;
+}

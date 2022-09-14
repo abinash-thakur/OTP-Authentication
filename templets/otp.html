@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Otp-Verification</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="otp.css" />
+</head>
+
+<body>
+    <div class="main d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center continer">
+            <div class="card py-5 px-3">
+                <h5 class="m-0">Mobile phone verification</h5>
+                <span class="mobile-text"><b>Enter the code we just sent on your phone</b>
+                    <b class="text-color" id="number"></b>
+                </span>
+
+                <div id="alert"></div>
+
+                <div class="w-100 d-flex justify-content-center mt-4">
+                    <div class="col-sm-10">
+                          <input type="text" inputmode="numeric" class="form-control " id="inputOTP" placeholder="enter the 6-digit code">
+                          <button type="submit" class="w-100 btn btn-primary mt-3 disabled" id="btnVerify">VERIFY</button>
+                    </div>
+                </div>
+
+
+                <div class="text-center mt-4">
+                    <span class="d-block mobile-text" id="countdown"></span>
+                    <span class="d-block mobile-text" id="resend"></span>
+                </div>
+
+                <div class="spin">
+                    <div class="spinner-border text-primary d-none" id="spiner" role="status"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="otp.js"></script>
+</body>
+
+</html>
